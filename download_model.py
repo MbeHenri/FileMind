@@ -4,7 +4,7 @@ from transformers import AutoModelForSequenceClassification, AutoTokenizer
 model_name = "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B"
 dir_name = "./models/deepseek"
 
-model = AutoModelForSequenceClassification.from_pretrained(model_name)
+model = AutoModelForSequenceClassification.from_pretrained(model_name, torch_dtype="auto")
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 
 model.save_pretrained(dir_name)

@@ -1,0 +1,44 @@
+{
+    "types": {
+        "textes": [
+            ".txt",
+            ".csv",
+            ".json",
+            ".c",
+            ".cpp",
+            ".py",
+            ".java",
+            ".js",
+            ".html",
+            ".css",
+            ".xml",
+            ".yaml",
+            ".yml"
+        ],
+        "images": [
+            ".jpg",
+            ".jpeg",
+            ".png",
+            ".gif",
+            ".bmp",
+            ".svg"
+        ],
+        "videos": [
+            ".mp4",
+            ".avi",
+            ".mkv",
+            ".flv",
+            ".mov",
+            ".wmv",
+            ".webm"
+        ],
+        "audios": [
+            ".mp3",
+            ".wav",
+            ".ogg",
+            ".flac",
+            ".aac",
+            ".wma"
+        ]
+    }
+}
