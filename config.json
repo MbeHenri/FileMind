@@ -39,6 +39,9 @@
             ".flac",
             ".aac",
             ".wma"
+        ],
+        "documents": [
+            ".pdf"
         ]
     }
 }
