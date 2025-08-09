@@ -170,3 +170,8 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 models/**/*
+
+temp/*
+
+app.db*
+vector_store.db*

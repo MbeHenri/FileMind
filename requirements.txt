@@ -1,0 +1,13 @@
+annotated-types==0.7.0
+faiss-cpu==1.11.0.post1
+numpy==2.3.2
+packaging==25.0
+pillow==11.3.0
+pydantic==2.11.7
+pydantic_core==2.33.2
+pymediainfo==7.0.1
+pypdf==5.9.0
+tinytag==2.1.1
+typing-inspection==0.4.1
+typing_extensions==4.14.1
+watchdog==6.0.0

@@ -1,12 +1,19 @@
-import json
-
-path_config = "config.json"
-
-with open(path_config, "r") as config_file:
-    config = json.load(config_file)
-
-TEXT_TYPES = config["types"]["textes"]
-IMAGE_TYPES = config["types"]["images"]
-AUDIO_TYPES = config["types"]["audios"]
-VIDEO_TYPES = config["types"]["videos"]
-DOCUMENT_TYPES = config["types"]["documents"]
+TEXT_TYPES = [
+    ".txt",
+    ".csv",
+    ".json",
+    ".c",
+    ".cpp",
+    ".py",
+    ".java",
+    ".js",
+    ".html",
+    ".css",
+    ".xml",
+    ".yaml",
+    ".yml",
+]
+IMAGE_TYPES = [".jpg", ".jpeg", ".png", ".gif", ".bmp", ".svg"]
+AUDIO_TYPES = [".mp4", ".avi", ".mkv", ".flv", ".mov", ".wmv", ".webm"]
+VIDEO_TYPES = [".mp3", ".wav", ".ogg", ".flac", ".aac", ".wma"]
+DOCUMENT_TYPES = [".pdf"]

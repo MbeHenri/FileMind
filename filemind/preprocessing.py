@@ -1,6 +1,6 @@
 import os
 
-from .utils.__ini__ import getMetadataFile
+from .extract import getMetadataFile
 
 
 class Preprocessor:
